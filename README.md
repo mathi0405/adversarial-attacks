@@ -1,0 +1,3 @@
+# adversarial-attacks
+Adversarial Networks using Deep neural networks.
+This project is to detect the amount of noise in the give dataset GTSRB(German Traffic Sign Recognition Benchmark) which consists of around 103,000 images and predict the accuracy by comparing the present working image with the output data. And it improve its accuracy and model. I trained the model using the images of the dataset to the ensemble model created using CNN models like LeNet, AlexNet etc and used some attacks to mislead the model like C&W and FGSM, used some defensive techniques to lead the model correctly like Adversarial training and Defensive distillation.
